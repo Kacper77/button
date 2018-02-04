@@ -1,6 +1,6 @@
-var guzik = document.getElementsByClassName('button');
-console.log(guzik);
+var buttons = document.getElementsByClassName('button');
+console.log(buttons);
 
-for (var i = 0; i < guzik.length; i++){
-	alert(guzik[i].innerText);
+for (var i = 0; i < buttons.length; i++){
+	alert(buttons[i].innerText);
 }
